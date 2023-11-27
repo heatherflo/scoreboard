@@ -1,0 +1,17 @@
+.bg-img{
+  background-image: url(https://images.unsplash.com/photo-1464983308776-3c7215084895?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: cover;
+  background-position: center;
+
+  min-width: 1024px;
+  width: auto;
+  height: 100%;
+}
+
+main{
+  height: 100vh;
+}
+
+.score-font {
+  font-size: 150px;
+}
