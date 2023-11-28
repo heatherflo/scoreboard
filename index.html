@@ -22,7 +22,7 @@
 
   <div class="row d-flex">
     <div class="col-12 text-end p-5">
-      <button class=" btn btn-success buttonClicked()">RESET</button>
+      <button onclick="resetClicked()" class="btn btn-success">RESET</button>
     </div>
   </div>
 
@@ -31,7 +31,7 @@
   <div class="row d-flex justify-content-around">
     <div class="col-3 card" style="display:inline">
       <div class="row ">
-        <div class="col-12 text-center">
+        <div id ="home" class="col-12 text-center">
           <h1>Home</h1>
         </div>
         <div class="col-12 text-center">
@@ -42,7 +42,7 @@
     </div>
     <div class="col-3 card" style="display:inline">
       <div class="row">
-        <div class="col-12 text-center">
+        <div id="away" class="col-12 text-center">
           <h1>AWAY</h1>
         </div>
         <div class="col-12 text-center">
@@ -59,11 +59,11 @@
   <!--SECTION first row of buttons-->
   <div class="row">
     <div class="col-6 text-center p-3">
-      <button class="btn btn-success">HOME +1</button>
+      <button class="btn btn-success" onclick="clickHome1()">HOME +1</button>
 
     </div>
     <div class="col-6 text-center p-3">
-      <button class="btn btn-success">AWAY +1</button>
+      <button class="btn btn-success" onclick="clickAway1()">AWAY +1</button>
 
   </div>
 
@@ -71,10 +71,10 @@
 <!--SECTION second row of buttons-->
 <div class="row">
   <div class="col-6 text-center p-3">
-    <button class="btn btn-success">HOME+3</button>
+    <button class="btn btn-success" onclick="clickHome3()">HOME+3</button>
   </div>
   <div class="col-6 text-center p-3">
-    <button class="btn btn-success">HOME+3</button>
+    <button class="btn btn-success" onclick="clickAway3()">AWAY+3</button>
   </div>
 </div>
 </div>
