@@ -60,7 +60,7 @@ function updateAway(){
 function alert(){
   if(home >= 10 ){
     console.log("home wins")
-    window.alert(home wins!)
+    window.alert("home wins!")
   } else (away >= 10); {
     window.alert("away wins!")
 }
